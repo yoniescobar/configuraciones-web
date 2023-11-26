@@ -1,0 +1,33 @@
+1.- npm install -D tailwindcss postcss autoprefixer  (3 dependecias)
+
+2.- npx tailwindcss init -p (crea archivo tailwind.config.js  y postcss.config.js  )
+
+3.- en index.css archivo creado en el proyecto (pegar) directivas
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+4. tailwind.config.js  (pegar) este paso es para aplicar tailwind a los archivos 
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx", "./src/**/*.js"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#047E0D",
+        secondary: "#ff5722",
+        success: "#4caf50",
+        info: "#2196f3",
+        warning: "#ff9800",
+        danger: "#f44336",
+      },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+        serif: ['Roboto Slab', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+}
