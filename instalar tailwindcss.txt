@@ -44,3 +44,7 @@ module.exports = {
         Aceptar
       </button>
     </div>
+
+6. ------------------------ extensiones  Vscode--------------------------
+Tailwind CSS IntelliSense
+CSS Peek
