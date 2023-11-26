@@ -1,0 +1,34 @@
+Material UI con react
+DataTable con Material
+Paginación API spring boot
+
+0. función de flecha
+1-callback
+2-funcion anonima
+3-usesTate
+4-usesEffec
+5-Form Data React 
+6-api construcción fundamentos
+7-MIDLWARE EN API
+
+https://www.youtube.com/watch?v=5M3HYc8PoVw&t=17s
+https://www.youtube.com/watch?v=KwLTb7If0d4
+
+media hora plza sprint
+media hora react
+
+https://youtu.be/KTPh5Cryl24?list=PLG1l7S-453CZtjfh9Q3z34DyuihvMsTpU
+crud..
+
+1. Estructura de un proyecto en Spring 
+   que son las dependecias ... instalación automatica y por linea de codigo pom.xml
+
+2. concepto de pooo y metodos. 
+
+   Controller
+   Interfaces
+   InterfaceService
+   modelo
+   constructor
+   getter y setter
+
