@@ -1,6 +1,6 @@
 1.- npm install -D tailwindcss postcss autoprefixer  (3 dependecias)
 
-2.- npx tailwindcss init -p (crea archivo tailwind.config.js  y postcss.config.js  )
+2.- npx tailwindcss init -p ( este archivo crea archivo tailwind.config.js  y postcss.config.js  )
 
 3.- en index.css archivo creado en el proyecto (pegar) directivas
 
