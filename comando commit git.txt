@@ -47,3 +47,7 @@ https://www.atlassian.com/git/tutorials/using-branches
 5.- git merge nuevo-header(une los cambios a la rama principal - en master/main)
 6.- git branch -d nuevo-header (eliminar rama)
 7.- git push -u origin master (subir cambios a la rama)
+
+
+---------------------------------------
+Lighthouse Report Viwer  (verifica el performace de la app)
