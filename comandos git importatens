@@ -1,0 +1,52 @@
+
+https://www.atlassian.com/git/tutorials/syncing
+
+1- crear un nuevo repositorio
+2- git init
+3- add README.md
+4- git add .
+5- git commit -m "descripcion de commit"
+6- git branch -M main
+7- git remote add origin https://github.com/....  dir del repo
+8- git push -u origin main
+
+-----------------IGNORA ARCHIVOS  .gitignore--------------------
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+-------------------------------------
+
+https://www.atlassian.com/git/tutorials/using-branches
+
+1.- git checkout -b nuevo-header master (crea una nueva rama y cambiarlo en automatico - master branch existente)
+2.- git add . (agrega todos los cambios )
+3.- git commit -m "texto descriptivo"
+4.- git checkout master (regro a master/main)
+5.- git merge nuevo-header(une los cambios a la rama principal - en master/main)
+6.- git branch -d nuevo-header (eliminar rama)
+7.- git push -u origin master (subir cambios a la rama)
+
+
+
